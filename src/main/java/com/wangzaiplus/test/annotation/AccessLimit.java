@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 限流注解
  * 在需要保证 接口防刷限流 的Controller的方法上使用此注解
+ * author zhangning
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
